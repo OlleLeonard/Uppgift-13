@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+    padding:50px; 
+}
+
+
+@import "awesome";
+
+@import "hamburger";
+
+@import "side";
+
+@import "overlay";
+
+.nav-bar{
+    border-style: solid;
+    background-color: bisque;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin:10px;
+    padding:10px;
+    max-height: 60px;
+}
+
